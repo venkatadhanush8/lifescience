@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Download Page</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<style>
+		body {
+			background-image: url(images.jpeg);
+			font-family: Arial, sans-serif;
+		}
+		h1 {
+			text-align: center;
+			color: #333;
+			margin-top: 50px;
+		}
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 50px;
+			background-color: #fff;
+			border-radius: 30px;
+			box-shadow: 0 0 10px rgba(0.25, 0.25, 0.30, 0.15);
+			
+		}
+		h2 {
+			margin-top: 30px;
+			color: #333;
+		}
+		a {
+			display: block;
+			margin-top: 10px;
+			color: #333;
+			font-weight: bold;
+			text-decoration: none;
+			border-bottom: 2px solid transparent;
+		
+			border-radius: 15px;
+			transition: border-bottom 0.2s ease-in-out;
+		}
+		a:hover {
+			border-bottom: 2px solid #333;
+			color: white;
+			background: black;
+			font-style: italic;
+			
+		}
+		a:active{
+    opacity: 0.4;
+    color: white;
+    background-color: black;
+  }
+  #div1{
+    color: black;
+    background: white;
+    border-radius: 15px;
+    align-self: stretch;
+  }
+  
+  
+  	#btnShow {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#btnShow:hover {
+  background-color: #0056b3;
+  #content {
+			display: none;
+			transition: 0.1s ease-in-out;
+		}
+  
+	</style>
+</head>
+<body>
+	<h1>Download Page</h1>
+	<div class="container">
+		<h2>Available Documents</h2>
+		<a  href="https://in.docworkspace.com/d/sIG6m_wGx3KmhBg?sa=00&st=0t"download>BOTANY UNIT - 1</a>
+		<a href="https://in.docworkspace.com/d/sIHKm_wHm36mhBg?sa=00&st=0t"download>BOTANY UNIT - 2</a>
+		<a href="https://in.docworkspace.com/d/sILem_wHd5KmhBg?sa=00&st=0t"download>BOTANY UNIT - 3</a>
+		<a href="https://in.docworkspace.com/d/sIKum_wG84qmhBg?sa=00&st=0t"download>BOTANY UNIT - 4</a>
+		<a href="https://in.docworkspace.com/d/sIFqm_wH74qmhBg?sa=00&st=0t"download>BOTANY UNIT - 5</a>
+		
+		
+		<h2>How to Download</h2>
+		
+<body>
+
+	<button id="btnShow"onclick="toggleContent()">Help</button>
+	<div id="content">
+		  <p>To download a document, simply click on the link to the document you want to download. The document will start downloading immediately.</p>
+		  
+	</div>
+  <script>
+    function toggleContent() {
+			var content = document.getElementById("content");
+			if (content.style.display === "none") {
+				content.style.display = "block";
+			} else {
+				content.style.display = "none";
+			}
+		}
+  </script>
+</body>
+
+</html>
